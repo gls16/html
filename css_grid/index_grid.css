@@ -1,0 +1,18 @@
+body{
+    background-color: #eee;
+}
+
+.grid{
+    /* para utilizar grid hay dos tipos grid,largo total  inline-grid, toma el largo de el elemento mas largo*/
+    display: grid;
+    /* grid-template-rows :
+        altura, elemento1     altura, elemento2 /
+    grid-template-rows: 50px 100px;
+    /* grid-temple-columbs: dependiendo el nuemro de valores se haran las columnas */
+    grid-template-columns: 90px 50px 120px; /* opcion: px  fr, utiliza todo el espacio y lo divide   %  */
+
+}
+
+.element{
+    background-color: red;
+}
